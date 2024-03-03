@@ -1,0 +1,31 @@
+1. Tuliskan realisasi dari fungsi countFactorOfX berikut ini:​
+
+​
+
+countFactorOfX :: Int -> [Int] -> Int​
+{- countFactorOfX n l mengembalikan banyaknya kemunculan ​bilangan yang merupakan faktor dari n pada l -} 
+
+2. Tuliskan realisasi dari fungsi delNthElmt berikut ini:​
+
+​
+
+delNthElmt :: Int -> [Char] -> [Char] ​
+
+{- delNthElmt(n,l) menghilangkan elemen ke-n dari l. ​
+
+   Asumsi: n adalah integer positif dan lebih kecil atau sama dengan jumlah elemen l. ​l tidak kosong. -}
+
+3. Tuliskan definisi, spesifikasi, dan realisasi dari fungsi sumIsiList yang menghitung hasil penjumlahan dari seluruh elemen sebuah list of integer l yang tidak kosong..
+
+4. Tuliskan definisi, spesifikasi, dan realisasi dari fungsi filterGanjil yang  melakukan filtering terhadap sebuah list of integer li sehingga menghasilkan list dengan elemen yang hanya terdiri atas bilangan ganjil yang muncul di li dengan urutan kemunculan yang sama. ​
+
+Diasumsikan semua elemen li adalah bilangan integer positif atau 0, li mungkin kosong.
+
+5. Tuliskan definisi, spesifikasi, dan realisasi dari fungsi isEqFront yang menerima masukan 2 buah list of character yang tidak kosong, misalnya T1 dan T2 dan menghasilkan true jika potongan awal list T2 mengandung T1 (dengan panjang dan urutan karakter yang sama). Banyaknya elemen T2 selalu lebih dari atau sama dengan T1.​
+Contoh:​
+T1: [’a’, ’b’, ’c’] T2: [’a’, ’b’, ’c’, ’d’, ’e’]              Hasil: true​
+T1: [’a’, ’b’, ’c’] T2: [’a’, ’b’, ’c’]                         Hasil: true​
+T1: [’a’, ’b’, ’c’] T2: [’a’, ’b’, ’a’, ’b’, ’c’, ’d’]        Hasil: false​
+T1: [’a’, ’b’, ’c’] T2: [’a’, ’b’, ’d’, ’a’, ’b’, ’c’]        Hasil: false 
+
+ 
