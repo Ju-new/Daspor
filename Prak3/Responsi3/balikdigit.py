@@ -10,3 +10,5 @@ while data >0:
     data = int((data - (data%10))/10)
 
 print(-hasil if neg else hasil) #output
+
+#selesai
