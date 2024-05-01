@@ -12,7 +12,7 @@ def naik_terus(arr):
             return False
     return True
 
-
+#input
 n = int(input())
 a = list(map(int, input().strip().split()))
 hasil = a
@@ -27,6 +27,8 @@ while not naik_terus(hasil):
     if hasil == a:
         bisa = False
         break
+
+#output
 if bisa:
     print(count)
 else:
